@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using System.Linq;
 
 public class ShowNewLine : MonoBehaviour
 {
@@ -15,11 +17,13 @@ public class ShowNewLine : MonoBehaviour
     public TMP_Text userInfoLine;
     public TMP_InputField previousLineInput;
     public Canvas parentCanvas;
+    public List<TerminalCommand> terminalCommands = new();
 
 
     // Start is called before the first frame update
     void Start()
     {
+        loadCommands();
         lastLineY = userInfoLine.transform.position.y;
     }
 
@@ -28,15 +32,25 @@ public class ShowNewLine : MonoBehaviour
     {
     }
     
+    public void loadCommands() 
+    {
+        var jsonFiles = Directory.GetFiles(@"Assets\Resources\Json");
+        foreach (var file in jsonFiles)
+        {
+            if (file.Contains("meta"))
+                continue;
+
+            var jsonText = File.ReadAllText(file);
+            terminalCommands.Add(TerminalCommand.GetFromJson(jsonText));
+        }
+    }
     
     public void onEnter() 
     {
-        var commands = new List<TerminalCommand>();
-        commands.Add(TerminalCommand.GetFromJson("{\"CommandName\": \"test\", \"InvalidArgsMessage\": \"invalid input\", \"IOPairs\": [{\"ExpectedInput\": \"hi\", \"Output\":\"bye\"}]}"));
         var inputText = previousLineInput.text;
         var commandWord = inputText.Split(' ')[0];
         var commandIndex = inputText.IndexOf(" ");
-        foreach (var command in commands) {
+        foreach (var command in terminalCommands) {
             if (commandWord.Equals(command.CommandName))
             {
                 showLine(command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1)));

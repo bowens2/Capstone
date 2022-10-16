@@ -1,0 +1,11 @@
+{
+	"CommandName": "test",
+	"InvalidArgsMessage": "invalid input",
+	"IOPairs": 
+		[
+			{
+				"ExpectedInput": "hi", 
+				"Output":"bye"
+			}
+		]
+}
