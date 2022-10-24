@@ -11,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
+  - Floor
+  - Walls
+  - Walls 2
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Furniture
+  - Furniture Objects
   - 
   - 
   - 
@@ -41,12 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Layer 1
+  - name: Floor
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 2
+  - name: Walls
     uniqueID: 4250941897
     locked: 0
-  - name: Layer 3
+  - name: Walls 2
     uniqueID: 4189426099
+    locked: 0
+  - name: Furniture
+    uniqueID: 3608055793
+    locked: 0
+  - name: Player
+    uniqueID: 2015041855
     locked: 0
