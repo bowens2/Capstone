@@ -1,0 +1,5315 @@
+fileFormatVersion: 2
+guid: 6545d4379e8563f4bb77e85067444544
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e4fb3d0a453ff40b3d3537ad6d61b4
+      internalID: 2005094222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1600
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7813865088bb4449b2039282f6a271
+      internalID: -1120998671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cd27b4b6d8ebf4aa32354e1ce574af
+      internalID: -385775149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1600
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057e14bbbc1f66e4890ef6638d8a7b83
+      internalID: 103366403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe163c7fbb8b8498ff0e76d3153eaf
+      internalID: -884621398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1600
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5128f5ce740949647ae57210c97ff1b1
+      internalID: 526853433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd339d42cad8702458313d17f8b17b6b
+      internalID: -888456114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1646
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40511626e7a43a4c93eaca55476fd2f
+      internalID: -740570471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1582
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11ed1c3f3abb114da306bb6021de7f3
+      internalID: -765095820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b11d53f9ec63c4e85379396ebf4bf4
+      internalID: -302058254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1472
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dac8422d3a74e7409bd6e6f110e3276
+      internalID: 181025262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1448
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7bd92117bd7ee4aa95fdd0aee796f8
+      internalID: 613116156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1472
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672c35543643ee4b9ca6116fad081ce
+      internalID: 590746158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40beb984a0960fd4e94848e40d46eb25
+      internalID: -1233608312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1396
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a2f8949b2b8d4e9ccb396baf93485
+      internalID: 648085496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1434
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26edb25f5a3b04d952b2f6427253e4
+      internalID: 564211841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1434
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705571c31f8bb1a4897c0e1d9dac78f3
+      internalID: 767404459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1408
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c363ff703a095c4b86297b40206bba8
+      internalID: -1704619081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c37c55743931fe4f98f2131ac029429
+      internalID: -1677552705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1384
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953948690620cf42aeb17d304356f97
+      internalID: 402601070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1384
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f5a2281d72b3647a0d40d808f31845
+      internalID: -249054782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1388
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544bf392094e9944da1094dc03fc9590
+      internalID: 2015227008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1390
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb76cf0145f72a747b232c700d892d60
+      internalID: -963594413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1412
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aff52048a5d3e4faca8c5220b4029d
+      internalID: -1690329613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1382
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa11fd16f06136f4d972414723398bd7
+      internalID: -68300321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1398
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1e31934f11cba488add1197d4cecf9
+      internalID: -1451769008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1376
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edbe66190a9ae249806bd4e4df447f2
+      internalID: -904661645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1376
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb99f6c2825dd95408768f07c5cfa706
+      internalID: -1161249521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1376
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ed8ee2a435278409e4f14b7d9581a6
+      internalID: -411495348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370a6e95206ac6644aff9f788bcab129
+      internalID: -264977975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1320
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5620969bf93b7ce488a08186fb6da60c
+      internalID: 1837132393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1320
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646c8c6c2b495844ac4b48c807ad4f8
+      internalID: -1857536803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1332
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343353323858df4a89cc2bd4616a80e
+      internalID: -414402394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1324
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e2df65eea8534991bfe2b0cb92888
+      internalID: -1784961146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1324
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de08f880c6d279640b4ba849e69f5ca5
+      internalID: 635153587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1316
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12249fe8f3e126b4bb0478e391a00d3a
+      internalID: -1175081596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1348
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d1eaf8949e8548a9fe1b2575bc46f
+      internalID: 1852695490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1344
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d861d0cb16261488ed6787a654f160
+      internalID: 943705302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1318
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c0c0fe3441984ab4843a47c5789c7
+      internalID: -279479604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1330
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c809e550a1af20e47bd266815e24d409
+      internalID: 2035206592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1312
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca8a2b5a20ce6409d1d5058d770254
+      internalID: 782292853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1312
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24202f97a2fb074fb214a82fe30eacc
+      internalID: -371779441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1258
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09d5416be1ebb94990d67f134880d0a
+      internalID: 1664526442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1272
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72f3b09e217a204c855ef785a6a9daf
+      internalID: 364249541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1280
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9449e2c8a6e9db47b51a164527aad2f
+      internalID: 138974989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1280
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb7ce4651a48848a074bd96186c041
+      internalID: -2113134155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1280
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b139929cf6a7bb40a01610e2c1fb31a
+      internalID: -1730343359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1236
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85097b616a2034d9f6011d24c0b8c5
+      internalID: 924712146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1236
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc435d94209e12444bd03be81429dd3a
+      internalID: -1751563400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1252
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8062f969bd7502a4a9905586d8b74b83
+      internalID: 1280935076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1280
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e413d5106d1e34d98918e12cbed613
+      internalID: -1765938700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1280
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693cc13eb9d2304c9282c16bbb156ab
+      internalID: 1890814183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1280
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3bcab94bbec542a45b2acac3a6fe8
+      internalID: 246718416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1280
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ff41054e28ef4c9e9a619350b7133
+      internalID: 1751904520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1248
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3b96bd99ceccf40be158435149485e
+      internalID: -1255258955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1248
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b3434c2e48a24d89bbd59d6c12cd1
+      internalID: 1181509298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1248
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b6ff435c626e4fa77ffaab54e5533
+      internalID: 1755152124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1236
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306a166587165c94eaadafe1a06dd357
+      internalID: -538536493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1248
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dabf0c18b135a438a8c57d314c63d7
+      internalID: -1683684603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1248
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac06129dec891e4f88c8a3d0823acbc
+      internalID: 185321236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1218
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb04ef30922af49bcfa76f886f44bd
+      internalID: 1843360035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1188
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634d31454c61dd4f9036fa6a6479c2f
+      internalID: -119583977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1232
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8459e30c69d5e4a8bec0a5490845d0
+      internalID: 1193645973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1232
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1968b042ff87ab4f8297fe2daa22c85
+      internalID: -1241760467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1188
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829f610de032a46428920f8918131d96
+      internalID: 1687563741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1168
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f14eca0097873f4399ef54fa5ecc114
+      internalID: 1534964146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1140
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7635360407f0a4bbf171894bd12539
+      internalID: 2072158693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1180
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9c66ce9e34d54697d910ed1ffbd29
+      internalID: 1791283955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1140
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dae5af20e010ff45b63db991ae116fd
+      internalID: -137906228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1170
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7229ce3a7bd061d418ab4845ded668bf
+      internalID: 17112660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1168
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ad3850db200ed4f964fce9ea7833f8
+      internalID: 1236543910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1170
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86acab2bbac4b2749baab648b3640bce
+      internalID: -866992739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1148
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06595fcb4805f364aa0ad090e6bab8f3
+      internalID: 1530710472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1116
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2b9e1e257934449ac8b3e59264e322
+      internalID: -1929451052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1096
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80d55b77ba0f544d934cf66f12230e4
+      internalID: 1266004559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1068
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ee226ca5de36b49af896d68f8b831c
+      internalID: -1055458220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1080
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f0ea236f7a614bb5279c1ffe23004
+      internalID: -1753416645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1078
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34903d5ebf792c74b9b299edbf0d575e
+      internalID: -409711376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1106
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8032d6814c9b6ab47a4d93563fc5e97e
+      internalID: 575823148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1104
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c5e8214e3e754681d7dd143f5f74f
+      internalID: -1928666094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1106
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7945d59bf55755a4ea7f5b0a47cc9c6a
+      internalID: -1242751050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b85ca3327a441d46a28e8accc3dd179
+      internalID: -378483049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1060
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa316d889ac4b0640b1f52e0f6a1d381
+      internalID: -1337749412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1052
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c5df06f06d944e943b12aad52d6e2
+      internalID: -1395991707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1056
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8b5feb58a417541b7f8d4ab27cf053
+      internalID: 212113780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1056
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a72b5d93485d5449ce8c680096dee2
+      internalID: -1552490803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 972
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd61bea64e5d4454887263e71c27d0c3
+      internalID: 1755694246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1016
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce24d3b882ef8c40ac6e135bacfe6b2
+      internalID: 674635214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1014
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d95d60b17eeb934880025f90bf7a6e4
+      internalID: -2068225765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 996
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d836f641c4c84c914710613953f5c
+      internalID: -764022204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 988
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb95c7775c0c0747adcb1eaf421c598
+      internalID: -2067368507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1002
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313e28920b71cd04d81787ae8ebbfa00
+      internalID: -1069043722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1000
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951c88ff52526d744b71b27194c573a5
+      internalID: -219560115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a146ce86412395440ba93e59b5c42f08
+      internalID: -1716325251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 952
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f5bc542a76c9943bb9cd00451af6c4
+      internalID: 78486693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 950
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a5e899afa7ad4994ad293e3c4ce15
+      internalID: -683745908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 954
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa08032c57b41b4a985e60085681b6b
+      internalID: 1182887345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 956
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531250a0691fb6247a6c9fe83a963f3f
+      internalID: -1911808753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 952
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25addcd00a581494ca8c78673229c69a
+      internalID: -1634310667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 906
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62450b60765c7f46a63bcc7e5664314
+      internalID: 854790393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e8f0b1940bcc4ab8dc216a49f230e
+      internalID: 1759909188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 882
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277d81870e3345428563e4dbc8f0e27
+      internalID: 82900684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 882
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5b69b517553ca4d80aadd7b33dfc93
+      internalID: 1557621710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 882
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e910ecdbb918488483bfc2b9a1e1b
+      internalID: -1879270698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 890
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa88eeb50b7eec84d87316d46c6b45b3
+      internalID: 616724148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 888
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd97ba6200e51439107996664fd0ab
+      internalID: -349574234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 924
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb4d9cf8357bc4ab340264070c8e73
+      internalID: -215433557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 892
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb51852930afb224fb112da349f22bba
+      internalID: -2017113405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 768
+        width: 198
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b939daf4d593646468c65b3af17b1f14
+      internalID: 611706355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 820
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d966245124731a4ba74a81f970698e3
+      internalID: -87185029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 810
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4a26bcc7fcf0c4e8ea6f928054b9d0
+      internalID: 1539913697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 814
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc278f705e5509419be2de5c54d3505
+      internalID: 1555213189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 814
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c7ae79ad7c09742a9d5e0bee03584d
+      internalID: 1711000157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 822
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8f00cc7d5b17442badff7bad029fd7
+      internalID: 103265449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 812
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd4dbd05da7af845a65298402cb78bd
+      internalID: -2086444477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 736
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef8a2a74cc5894290e40b31f44b686
+      internalID: -1088865282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 736
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bce852a196530438431304fbc194aa
+      internalID: 469234511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 752
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7809efb97deb1642859f60211e01b63
+      internalID: 73662924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 750
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daef643a8b2c2243aa4e999af91c4da
+      internalID: -398935225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 672
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b2266936c14440b169578c4d518e2
+      internalID: -859710249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 672
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d98f6f8aea0fae49be9d87c9a690493
+      internalID: -1730276183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 672
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae2b2137974f74b8a3647cf0148913
+      internalID: -1757555384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 688
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069ce54490f24541a13ab1fe1a45903
+      internalID: 718275758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 704
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d5915f43d9ac4cb49d5b21593d9f9
+      internalID: 198173145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 704
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8410fb3b81102b4b996822b291bc71d
+      internalID: 254404872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 672
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4e9930b3e2294faf6eafd10f07dec
+      internalID: -750195650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 672
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f06341f7268b42b9c1d6d170c69db
+      internalID: -970449590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcc75d19ee4db1489603486464b5970
+      internalID: 799899330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 624
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd77e66d8300284a9e7243e3852ac4e
+      internalID: -188990015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 640
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba98390a029e5c439ee15d48b5694a7
+      internalID: 1308017025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 640
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c53608d7b111d4194ac1f65c2a0f36
+      internalID: 21203127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 640
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb2bc449d3448b4bb5f4824b2eb35d5
+      internalID: 2046848803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 552
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20070d7bf17ee6441b6a973d7d79fd7d
+      internalID: 1668260199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 558
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cefd492fd39154089f103fb685e918
+      internalID: 1216211536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 578
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0317df33164d6ef45b051d98af65f7d5
+      internalID: -1164238286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 504
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a322570cfa4f88f4290a75be9bcbae20
+      internalID: -1996536682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 544
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c8f826688570c4fb7738440b713d04
+      internalID: -1047744770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 558
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fa33ac9e85c574b8e5d93f1cae87bb
+      internalID: -1499018212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 558
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29974bfbb404e8940a35da7283272b2a
+      internalID: -1289936495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 552
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0dd92907d13f240ace5ce43bdf8855
+      internalID: -891805126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 548
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67d5ba101fc12143aa36c8ff100929f
+      internalID: 1364258875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 516
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8563f60aea530f5418dfcf164e06beef
+      internalID: -1690925385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 512
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa3a32b52e6eed4fa65257ca866958e
+      internalID: -668203231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 494
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5db8a7c3ccfb2c4cbc339efdc823470
+      internalID: -957666978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 492
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6073b1b84ef904f9750b191db3ab49
+      internalID: 15606796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 402
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf17f5b177b5e44eb3ceb2c63948881
+      internalID: 1776171068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 402
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d323a73a285d46b15a1d57fe1c121
+      internalID: 1580460498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 402
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c40c222f56517745862a80003559dfa
+      internalID: 59587630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 416
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ad62caf1aee664aa42e006c67d2f6f
+      internalID: -2009859439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 320
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf27155c5651c40418c7bc763bce8171
+      internalID: -1246803913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 320
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987415d17028fb449aea8115aff30f92
+      internalID: 344292221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 320
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43457cb202342ad4ea260923c61dc0aa
+      internalID: 485238846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 352
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6954375d1350c2448bc8d8728ce81ca2
+      internalID: -2047139753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 266
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b80686ac6c694d91019ac0034fcdf
+      internalID: 96819882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 266
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cef82966121ff04ca5dc282d67b842e
+      internalID: -706266457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 288
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c591383140493bd40b8c91997347031a
+      internalID: 444741103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb1c5da2c24be340b409b914528d28a
+      internalID: -1160161728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 216
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa35bf2fa46d7e45a03301f5e5fe3c6
+      internalID: 1212846332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 206
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369e47122df79a4f9d0e99981f0cdcc
+      internalID: -1636221617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 228
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf8ea98005ced438c2805d0b5dbabc
+      internalID: -1023781198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 204
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8ec2fc180450c48abd7d897862e478
+      internalID: 1210917563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 208
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1f9da962e49e4a8bd9223d09aae3d
+      internalID: 169817974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 142
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b3aa498906c2a46af141386c0bdfa4
+      internalID: -298788939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 142
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9138ceb9e8f5ccd4e9f622310ba74907
+      internalID: -657048659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 142
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffbb832b9c1f3145945db7ebef2a386
+      internalID: 1546219348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 140
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ae929d4690ba24c9fef21d23ea354c
+      internalID: 1596212815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f03259a108afe4dbe873a91e55ebff
+      internalID: 733139896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 78
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e44dd4e47ba774e9ca8fcf94f6214a
+      internalID: 2133845317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 78
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad600f3bfb0e62946a6ccecc3c1c166b
+      internalID: 612545888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 78
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d248ab362f7f0443866fe6c3b7b57c4
+      internalID: 145815466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 64
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24ee2f6d9485d4e87f559afdb2354e
+      internalID: -829245298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1168
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e380f2f79b1478b4cb66dadb369dab82
+      internalID: -1665226624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1168
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b046b0424f69043806813c9112750e
+      internalID: -250275642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1168
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be617a9541454f24d910e7b728c8642f
+      internalID: -833717960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1184
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e95c9b402a784fb061dfe76afccfb
+      internalID: -1085814661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1184
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c80119a09691341b3aeb6db581f1e0
+      internalID: -2011248309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1316
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa169255a8dd446a6204f11e1ddae9
+      internalID: 289863803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_179
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1316
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a61759cd559cf242bb59bb1b9c2579d
+      internalID: 1547624320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_180
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1316
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094f0323a70c22149b1e392e9ac05d19
+      internalID: 1972988406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_181
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e895892b0c1661c4786545e2a8748cfa
+      internalID: -1667893585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc9d336665ab7e42b660ad765675fc3
+      internalID: -549629989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_183
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1587f0cc665c94ca08245965a0eef5
+      internalID: -1703416081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_184
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df057600a63756a44b0ba6620816716f
+      internalID: -468790457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_185
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b923a9806cf7944a9736adcb5142fa
+      internalID: -1310275566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_186
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf73991ca9c1c0d4590c8d22726b47cc
+      internalID: -1678203160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_187
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2995206aabf6b2a479a4b2df763de920
+      internalID: 1186871740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_188
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a95cebaa7d8614b931acad643d43e6
+      internalID: 1052781261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_189
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9022ca7db5cbb2848a8168eb477b178c
+      internalID: -818925550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_190
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1448
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34242f19ba0f0c429f1ee2dca236f2c
+      internalID: -60247019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_192
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1448
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e90f3db7271fc942804a849946e45bd
+      internalID: -1433704638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_193
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7584c90dc7dbdbe4292d4ee6b930711f
+      internalID: 1284912766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1576
+        width: 32
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9ee2fc0e4019945bd34aadde5f7500
+      internalID: -406463049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_191
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1380
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efada107302c28c4384bf519a719543e
+      internalID: -1122060736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_195
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1380
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7073aa81fe91b49884d05978c7adcb
+      internalID: 1138080050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_196
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1380
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc28e4df3f2d1b4c9ed968015f9bd4e
+      internalID: -770836193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_197
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1248
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93c9c40dcc50174892e7984cb0885d6
+      internalID: -1994596998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_198
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1248
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea0d28331d1a7418cb09fe1c579b66
+      internalID: -617534196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_199
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1216
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd686fddbae19149816570b783831a1
+      internalID: 1262224667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_200
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 996
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1895be9bc2d6cb49989f552a91f3901
+      internalID: -1170300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4da4f5fdfc3176409ac13dcf59c214f
+      internalID: -166914213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2d497c6c4b5f4a83ff45e5fba5f43
+      internalID: -1985045378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_201
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2230ec866cfead24b855ed7db95a332e
+      internalID: 126063616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_202
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 570
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c036a16ab43fbe9449bab4028e1b34a2
+      internalID: 1650331291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_203
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6accdd62c534d4e9928f3e3aeee3af
+      internalID: -365894658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_204
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0854ae99e5d167a43920385e81a07ba7
+      internalID: -1752655799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 474
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea0453b2b474a748ab4e8d2be28edab
+      internalID: -1415842017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_206
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192787f5b33272446aec94fca50d2ef6
+      internalID: -1077975246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_207
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b919ceaa1d1994fad252ccb7227708
+      internalID: 1695658087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_208
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf956ce3a6a104ab006bad74b0b9d8
+      internalID: -1901483930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbcda917bfaf614b9f01c19dc919b23
+      internalID: -1272420777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_210
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503a890a477a5d14d81f0eef9c3efb63
+      internalID: 1826892485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_211
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 64
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b3f6e6481d0474ab1c1b11e86cb2d8
+      internalID: -2042203245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_212
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c85f174ba80d4a9e22a5e84ea5f51
+      internalID: 1803011339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_213
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e52886a59bb77499450202e6501792
+      internalID: 701138438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_214
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 282
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334e7066aeb554e409af091bcf197475
+      internalID: -1968760759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_215
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27a92a3454c16f4bba9434451048ffa
+      internalID: -1270124780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_216
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6a00c0bb13924b9a294a3a50f4ac5
+      internalID: 584536586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_217
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12c7ad5923b007439579b53f229c4fe
+      internalID: -1201233633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_218
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fea7db16566be45bc85cfd978db05d
+      internalID: 962352324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_219
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 282
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acd52aae6e54ee41bf5b786d42245ff
+      internalID: -1234358393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_220
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b9a35c7ef8ed46967aa7364fdfdba
+      internalID: 5091670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_221
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 206
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d424c67bb2415147953e33be1a26e8d
+      internalID: -1302176338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_222
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 142
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659bd55c3bfe87048a8fb67f318163ee
+      internalID: -610942146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_223
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 78
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc3d864f5364d6449e930dd5ebdba77
+      internalID: 1312026394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 188
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ab37b7efce72848810842be35e0251
+      internalID: 358722879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2ca65161b8bf940abaddae44eb6f96
+      internalID: -299917973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116cf144515318c42b298cb6c66720d6
+      internalID: 377596990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_227
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 186
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3d0f8b820590440b51a122d66a61c8
+      internalID: -1973578091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019b083f09534f458eb850cec74f4eb
+      internalID: 297257447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_229
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca899127e8bae4889a74e46fb128fd
+      internalID: -468830480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_230
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 90
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf19bb2df1bff104bb7c44cb3702fc55
+      internalID: 1866109295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_231
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b145f08390da24c94a7222838c8994
+      internalID: 774387910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd87856d8ed30ed439632efb850a8f5f
+      internalID: -1384293724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_233
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1060
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c92b1b6220b9b4ba2d8bea5041dea6
+      internalID: -174750371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_234
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 504
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1b5fab670285944a45eceb1d22a261
+      internalID: -707027976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Office_Shadowless_32x32_235
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 216
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328f2d89f1b351c4da0f4d033b6ed1e5
+      internalID: -1777772062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Modern_Office_Shadowless_32x32_0: 2005094222
+      Modern_Office_Shadowless_32x32_42: 1664526442
+      Modern_Office_Shadowless_32x32_219: -1234358393
+      Modern_Office_Shadowless_32x32_34: 635153587
+      Modern_Office_Shadowless_32x32_101: 82900684
+      Modern_Office_Shadowless_32x32_87: 674635214
+      Modern_Office_Shadowless_32x32_161: -1023781198
+      Modern_Office_Shadowless_32x32_208: -1901483930
+      Modern_Office_Shadowless_32x32_129: -188990015
+      Modern_Office_Shadowless_32x32_131: 21203127
+      Modern_Office_Shadowless_32x32_213: 701138438
+      Modern_Office_Shadowless_32x32_207: 1695658087
+      Modern_Office_Shadowless_32x32_228: 297257447
+      Modern_Office_Shadowless_32x32_91: -1069043722
+      Modern_Office_Shadowless_32x32_64: 1687563741
+      Modern_Office_Shadowless_32x32_231: 774387910
+      Modern_Office_Shadowless_32x32_53: 1751904520
+      Modern_Office_Shadowless_32x32_100: 1759909188
+      Modern_Office_Shadowless_32x32_230: 1866109295
+      Modern_Office_Shadowless_32x32_194: -406463049
+      Modern_Office_Shadowless_32x32_170: 612545888
+      Modern_Office_Shadowless_32x32_94: 78486693
+      Modern_Office_Shadowless_32x32_182: -549629989
+      Modern_Office_Shadowless_32x32_159: 1212846332
+      Modern_Office_Shadowless_32x32_31: -1857536803
+      Modern_Office_Shadowless_32x32_37: 943705302
+      Modern_Office_Shadowless_32x32_79: -1928666094
+      Modern_Office_Shadowless_32x32_75: -1055458220
+      Modern_Office_Shadowless_32x32_180: 1972988406
+      Modern_Office_Shadowless_32x32_183: -1703416081
+      Modern_Office_Shadowless_32x32_210: 1826892485
+      Modern_Office_Shadowless_32x32_135: 1216211536
+      Modern_Office_Shadowless_32x32_204: -1752655799
+      Modern_Office_Shadowless_32x32_36: 1852695490
+      Modern_Office_Shadowless_32x32_8: -765095820
+      Modern_Office_Shadowless_32x32_227: -1973578091
+      Modern_Office_Shadowless_32x32_233: -174750371
+      Modern_Office_Shadowless_32x32_143: -1690925385
+      Modern_Office_Shadowless_32x32_33: -1784961146
+      Modern_Office_Shadowless_32x32_168: 733139896
+      Modern_Office_Shadowless_32x32_185: -1310275566
+      Modern_Office_Shadowless_32x32_78: 575823148
+      Modern_Office_Shadowless_32x32_138: -1047744770
+      Modern_Office_Shadowless_32x32_115: -2086444477
+      Modern_Office_Shadowless_32x32_95: -683745908
+      Modern_Office_Shadowless_32x32_144: -668203231
+      Modern_Office_Shadowless_32x32_234: -707027976
+      Modern_Office_Shadowless_32x32_198: -617534196
+      Modern_Office_Shadowless_32x32_80: -1242751050
+      Modern_Office_Shadowless_32x32_112: 1711000157
+      Modern_Office_Shadowless_32x32_145: -957666978
+      Modern_Office_Shadowless_32x32_50: -1765938700
+      Modern_Office_Shadowless_32x32_150: -2009859439
+      Modern_Office_Shadowless_32x32_19: 402601070
+      Modern_Office_Shadowless_32x32_47: 924712146
+      Modern_Office_Shadowless_32x32_63: -1241760467
+      Modern_Office_Shadowless_32x32_82: -1337749412
+      Modern_Office_Shadowless_32x32_147: 1776171068
+      Modern_Office_Shadowless_32x32_151: -1246803913
+      Modern_Office_Shadowless_32x32_178: 289863803
+      Modern_Office_Shadowless_32x32_68: -137906228
+      Modern_Office_Shadowless_32x32_142: 1364258875
+      Modern_Office_Shadowless_32x32_59: 185321236
+      Modern_Office_Shadowless_32x32_27: -1161249521
+      Modern_Office_Shadowless_32x32_89: -764022204
+      Modern_Office_Shadowless_32x32_107: -2017113405
+      Modern_Office_Shadowless_32x32_175: -833717960
+      Modern_Office_Shadowless_32x32_77: -409711376
+      Modern_Office_Shadowless_32x32_232: -1384293724
+      Modern_Office_Shadowless_32x32_186: -1678203160
+      Modern_Office_Shadowless_32x32_217: -1201233633
+      Modern_Office_Shadowless_32x32_86: 1755694246
+      Modern_Office_Shadowless_32x32_149: 59587630
+      Modern_Office_Shadowless_32x32_46: -1730343359
+      Modern_Office_Shadowless_32x32_99: 854790393
+      Modern_Office_Shadowless_32x32_162: 1210917563
+      Modern_Office_Shadowless_32x32_39: 2035206592
+      Modern_Office_Shadowless_32x32_106: -215433557
+      Modern_Office_Shadowless_32x32_130: 1308017025
+      Modern_Office_Shadowless_32x32_218: 962352324
+      Modern_Office_Shadowless_32x32_156: -706266457
+      Modern_Office_Shadowless_32x32_109: -87185029
+      Modern_Office_Shadowless_32x32_222: -610942146
+      Modern_Office_Shadowless_32x32_211: -2042203245
+      Modern_Office_Shadowless_32x32_177: -2011248309
+      Modern_Office_Shadowless_32x32_201: 126063616
+      Modern_Office_Shadowless_32x32_23: -1690329613
+      Modern_Office_Shadowless_32x32_169: 2133845317
+      Modern_Office_Shadowless_32x32_102: 1557621710
+      Modern_Office_Shadowless_32x32_120: -859710249
+      Modern_Office_Shadowless_32x32_6: -888456114
+      Modern_Office_Shadowless_32x32_199: 1262224667
+      Modern_Office_Shadowless_32x32_113: -166914213
+      Modern_Office_Shadowless_32x32_84: 212113780
+      Modern_Office_Shadowless_32x32_17: -1704619081
+      Modern_Office_Shadowless_32x32_10: 181025262
+      Modern_Office_Shadowless_32x32_206: -1077975246
+      Modern_Office_Shadowless_32x32_56: 1755152124
+      Modern_Office_Shadowless_32x32_96: 1182887345
+      Modern_Office_Shadowless_32x32_5: 526853433
+      Modern_Office_Shadowless_32x32_35: -1175081596
+      Modern_Office_Shadowless_32x32_22: -963594413
+      Modern_Office_Shadowless_32x32_117: 469234511
+      Modern_Office_Shadowless_32x32_166: 1546219348
+      Modern_Office_Shadowless_32x32_197: -1994596998
+      Modern_Office_Shadowless_32x32_118: 73662924
+      Modern_Office_Shadowless_32x32_165: -657048659
+      Modern_Office_Shadowless_32x32_29: -264977975
+      Modern_Office_Shadowless_32x32_133: -1985045378
+      Modern_Office_Shadowless_32x32_173: -1665226624
+      Modern_Office_Shadowless_32x32_116: -1088865282
+      Modern_Office_Shadowless_32x32_202: 1650331291
+      Modern_Office_Shadowless_32x32_85: -1552490803
+      Modern_Office_Shadowless_32x32_108: 611706355
+      Modern_Office_Shadowless_32x32_137: -1996536682
+      Modern_Office_Shadowless_32x32_128: 799899330
+      Modern_Office_Shadowless_32x32_30: 1837132393
+      Modern_Office_Shadowless_32x32_65: 1534964146
+      Modern_Office_Shadowless_32x32_172: -829245298
+      Modern_Office_Shadowless_32x32_164: -298788939
+      Modern_Office_Shadowless_32x32_1: -1120998671
+      Modern_Office_Shadowless_32x32_124: 198173145
+      Modern_Office_Shadowless_32x32_123: 718275758
+      Modern_Office_Shadowless_32x32_81: -378483049
+      Modern_Office_Shadowless_32x32_193: 1284912766
+      Modern_Office_Shadowless_32x32_139: -1499018212
+      Modern_Office_Shadowless_32x32_125: 254404872
+      Modern_Office_Shadowless_32x32_187: 1186871740
+      Modern_Office_Shadowless_32x32_97: -1911808753
+      Modern_Office_Shadowless_32x32_62: 1193645973
+      Modern_Office_Shadowless_32x32_103: -1879270698
+      Modern_Office_Shadowless_32x32_38: -279479604
+      Modern_Office_Shadowless_32x32_88: -2068225765
+      Modern_Office_Shadowless_32x32_126: -750195650
+      Modern_Office_Shadowless_32x32_32: -414402394
+      Modern_Office_Shadowless_32x32_225: -299917973
+      Modern_Office_Shadowless_32x32_28: -411495348
+      Modern_Office_Shadowless_32x32_41: -371779441
+      Modern_Office_Shadowless_32x32_55: 1181509298
+      Modern_Office_Shadowless_32x32_223: 1312026394
+      Modern_Office_Shadowless_32x32_216: 584536586
+      Modern_Office_Shadowless_32x32_195: 1138080050
+      Modern_Office_Shadowless_32x32_66: 2072158693
+      Modern_Office_Shadowless_32x32_71: -866992739
+      Modern_Office_Shadowless_32x32_105: -349574234
+      Modern_Office_Shadowless_32x32_134: 1668260199
+      Modern_Office_Shadowless_32x32_14: 648085496
+      Modern_Office_Shadowless_32x32_57: -538536493
+      Modern_Office_Shadowless_32x32_205: -1415842017
+      Modern_Office_Shadowless_32x32_92: -219560115
+      Modern_Office_Shadowless_32x32_21: 2015227008
+      Modern_Office_Shadowless_32x32_189: -818925550
+      Modern_Office_Shadowless_32x32_48: -1751563400
+      Modern_Office_Shadowless_32x32_49: 1280935076
+      Modern_Office_Shadowless_32x32_148: 1580460498
+      Modern_Office_Shadowless_32x32_179: 1547624320
+      Modern_Office_Shadowless_32x32_167: 1596212815
+      Modern_Office_Shadowless_32x32_212: 1803011339
+      Modern_Office_Shadowless_32x32_44: 138974989
+      Modern_Office_Shadowless_32x32_70: 1236543910
+      Modern_Office_Shadowless_32x32_20: -249054782
+      Modern_Office_Shadowless_32x32_12: 590746158
+      Modern_Office_Shadowless_32x32_83: -1395991707
+      Modern_Office_Shadowless_32x32_191: -1122060736
+      Modern_Office_Shadowless_32x32_69: 17112660
+      Modern_Office_Shadowless_32x32_127: -970449590
+      Modern_Office_Shadowless_32x32_72: 1530710472
+      Modern_Office_Shadowless_32x32_226: 377596990
+      Modern_Office_Shadowless_32x32_153: 485238846
+      Modern_Office_Shadowless_32x32_16: 767404459
+      Modern_Office_Shadowless_32x32_74: 1266004559
+      Modern_Office_Shadowless_32x32_114: 103265449
+      Modern_Office_Shadowless_32x32_7: -740570471
+      Modern_Office_Shadowless_32x32_176: -1085814661
+      Modern_Office_Shadowless_32x32_54: -1255258955
+      Modern_Office_Shadowless_32x32_58: -1683684603
+      Modern_Office_Shadowless_32x32_11: 613116156
+      Modern_Office_Shadowless_32x32_90: -2067368507
+      Modern_Office_Shadowless_32x32_24: -68300321
+      Modern_Office_Shadowless_32x32_45: -2113134155
+      Modern_Office_Shadowless_32x32_174: -250275642
+      Modern_Office_Shadowless_32x32_110: 1539913697
+      Modern_Office_Shadowless_32x32_188: 1052781261
+      Modern_Office_Shadowless_32x32_224: 358722879
+      Modern_Office_Shadowless_32x32_111: 1555213189
+      Modern_Office_Shadowless_32x32_154: -2047139753
+      Modern_Office_Shadowless_32x32_229: -468830480
+      Modern_Office_Shadowless_32x32_104: 616724148
+      Modern_Office_Shadowless_32x32_220: 5091670
+      Modern_Office_Shadowless_32x32_52: 246718416
+      Modern_Office_Shadowless_32x32_155: 96819882
+      Modern_Office_Shadowless_32x32_9: -302058254
+      Modern_Office_Shadowless_32x32_196: -770836193
+      Modern_Office_Shadowless_32x32_214: -1968760759
+      Modern_Office_Shadowless_32x32_203: -365894658
+      Modern_Office_Shadowless_32x32_4: -884621398
+      Modern_Office_Shadowless_32x32_171: 145815466
+      Modern_Office_Shadowless_32x32_40: 782292853
+      Modern_Office_Shadowless_32x32_152: 344292221
+      Modern_Office_Shadowless_32x32_192: -1433704638
+      Modern_Office_Shadowless_32x32_157: 444741103
+      Modern_Office_Shadowless_32x32_141: -891805126
+      Modern_Office_Shadowless_32x32_61: -119583977
+      Modern_Office_Shadowless_32x32_136: -1164238286
+      Modern_Office_Shadowless_32x32_215: -1270124780
+      Modern_Office_Shadowless_32x32_3: 103366403
+      Modern_Office_Shadowless_32x32_132: 2046848803
+      Modern_Office_Shadowless_32x32_146: 15606796
+      Modern_Office_Shadowless_32x32_235: -1777772062
+      Modern_Office_Shadowless_32x32_200: -1170300064
+      Modern_Office_Shadowless_32x32_190: -60247019
+      Modern_Office_Shadowless_32x32_25: -1451769008
+      Modern_Office_Shadowless_32x32_119: -398935225
+      Modern_Office_Shadowless_32x32_13: -1233608312
+      Modern_Office_Shadowless_32x32_93: -1716325251
+      Modern_Office_Shadowless_32x32_15: 564211841
+      Modern_Office_Shadowless_32x32_122: -1757555384
+      Modern_Office_Shadowless_32x32_209: -1272420777
+      Modern_Office_Shadowless_32x32_73: -1929451052
+      Modern_Office_Shadowless_32x32_26: -904661645
+      Modern_Office_Shadowless_32x32_158: -1160161728
+      Modern_Office_Shadowless_32x32_221: -1302176338
+      Modern_Office_Shadowless_32x32_163: 169817974
+      Modern_Office_Shadowless_32x32_184: -468790457
+      Modern_Office_Shadowless_32x32_121: -1730276183
+      Modern_Office_Shadowless_32x32_2: -385775149
+      Modern_Office_Shadowless_32x32_43: 364249541
+      Modern_Office_Shadowless_32x32_160: -1636221617
+      Modern_Office_Shadowless_32x32_60: 1843360035
+      Modern_Office_Shadowless_32x32_140: -1289936495
+      Modern_Office_Shadowless_32x32_18: -1677552705
+      Modern_Office_Shadowless_32x32_67: 1791283955
+      Modern_Office_Shadowless_32x32_181: -1667893585
+      Modern_Office_Shadowless_32x32_98: -1634310667
+      Modern_Office_Shadowless_32x32_76: -1753416645
+      Modern_Office_Shadowless_32x32_51: 1890814183
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
