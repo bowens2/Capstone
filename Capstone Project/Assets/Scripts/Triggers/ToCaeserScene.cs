@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToTerminalScene : MonoBehaviour
+public class ToCaeserScene : MonoBehaviour
 {
     public Transform player;
     bool closeEnough;
@@ -18,7 +18,7 @@ public class ToTerminalScene : MonoBehaviour
             closeEnough = true;
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F)) {
-            SceneManager.LoadScene("TerminalScene");
+            SceneManager.LoadSceneAsync("Scenes/CaeserScene", LoadSceneMode.Single);
         }
     }
 }

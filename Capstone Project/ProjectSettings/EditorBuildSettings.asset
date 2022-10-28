@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Floor 1.unity
     guid: 84231870b05d8cd48825771ffa465062
   - enabled: 1
+    path: Assets/Scenes/CaeserScene.unity
+    guid: 3d7e8d5a1252a0145aff6b9c006286fc
+  - enabled: 1
     path: Assets/Scenes/TerminalScene.unity
     guid: b7a61069538eef04aa624e42e2b3f198
   m_configObjects: {}
