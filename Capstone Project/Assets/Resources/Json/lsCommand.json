@@ -1,0 +1,11 @@
+﻿{
+  "CommandName": "ls",
+  "InvalidArgsMessage": "invalid input",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "ls",
+      "Output":"ls done"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "CommandName": "cd",
+  "InvalidArgsMessage": "invalid input",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "cd",
+      "Output":"cd done!"
+    }
+  ]
+}
