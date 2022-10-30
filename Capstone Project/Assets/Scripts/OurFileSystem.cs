@@ -27,6 +27,31 @@ public class OurFileSystem
     {
         currentWorkingDirectory = root;
     }
+
+    public void JumpToDir(string dir)
+    {
+        JumpToDir(dir, root);
+    }
+    private bool JumpToDir(string dir, MyNode node)
+    {
+        if (!node.name.Equals(dir))
+        {
+            foreach (var child in node.children.Values)
+            {
+                if (child != null)
+                {
+                    return JumpToDir(dir, child);
+                }
+            }
+        }
+        else
+        {
+            currentWorkingDirectory = node;
+            return true;
+        }
+
+        return false;
+    }
     /*
      * This method is meant for devs, users can't create new dirs
      * You can only add dirs to the current directory

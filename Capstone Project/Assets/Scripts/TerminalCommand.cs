@@ -42,6 +42,12 @@ public class TerminalCommand
             {
                 return navCmd.Cd(arg) ? "" : InvalidArgsMessage;
             }
+            
+            //pwd
+            if (CommandName.Equals("pwd"))
+            {
+                return navCmd.Pwd();
+            }
         }
         catch (ArgumentOutOfRangeException e)
         {

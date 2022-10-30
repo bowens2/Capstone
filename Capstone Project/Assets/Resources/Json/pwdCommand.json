@@ -1,0 +1,11 @@
+﻿{
+  "CommandName": "pwd",
+  "InvalidArgsMessage": "-cmd: invalid input\nusage: pwd",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "pwd",
+      "Output":"placeholder"
+    }
+  ]
+}

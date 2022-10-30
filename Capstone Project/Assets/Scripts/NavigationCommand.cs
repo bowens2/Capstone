@@ -39,15 +39,20 @@ public class NavigationCommand
 
     public string Pwd()
     {
-        var pwd = "Path :\n";
+        var currentDir = FileSystem.getCurrentDir();
+        var pwd = "Path : " + currentDir;
+        
         while (FileSystem.HasParent())
         {
-            pwd += FileSystem.getParent() + "\n";
+            pwd.Insert(0,FileSystem.getParent() + " > ");
             FileSystem.StepBack();
         }
-
+        
+        //if this is too buggy we'll cd since we have the list of parents above
+        FileSystem.JumpToDir(currentDir);
         return pwd;
     }
+    
     public string Ls()
     {
         Debug.Log("ls start");
