@@ -30,11 +30,11 @@ public class NavigationCommand
     public string Pwd()
     {
         var currentDir = FileSystem.getCurrentDir();
-        var pwd = "Path : " + currentDir;
+        var pwd = currentDir;
         
         while (FileSystem.HasParent())
         {
-            pwd.Insert(0,FileSystem.getParent() + " > ");
+            pwd = pwd.Insert(0,FileSystem.getParent() + " > ");
             FileSystem.StepBack();
         }
         
@@ -47,7 +47,7 @@ public class NavigationCommand
     {
         Debug.Log("ls start");
             
-        string ls = "Directories";
+        string ls = "";
 
         if (FileSystem.HasChildren())
         {
