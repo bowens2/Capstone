@@ -78,7 +78,6 @@ public class ShowNewLine : MonoBehaviour
         float newY = lastLineY - 50;
         Instantiate(emptyFullWidthTextBox, new Vector3(emptyFullWidthTextBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
         lastLineY = newY;
-        // showNewInputLine();
     }
 
     public void showNewInputLine() 

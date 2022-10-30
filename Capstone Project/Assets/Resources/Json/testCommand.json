@@ -1,6 +1,6 @@
 {
 	"CommandName": "test",
-	"InvalidArgsMessage": "invalid input",
+	"InvalidArgsMessage": "-cmd: invalid input - usage: test [hi]",
 	"IOPairs": 
 		[
 			{

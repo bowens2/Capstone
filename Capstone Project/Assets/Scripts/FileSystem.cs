@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 
 /*
 * File System class using a tree like data structure to allow the user to navigate a file structure
 */
-public class OurFileSystem
+public class FileSystem
 {
     private MyNode root;
     private MyNode currentWorkingDirectory { get; set; }
@@ -15,12 +13,10 @@ public class OurFileSystem
     /*
     * The Directory tree starts with root dir that will automatically be the root dir
     */
-    public OurFileSystem(string rootName)
+    public FileSystem(string rootName)
     {
-        Console.WriteLine("Constructor start");
         root = new MyNode(null, rootName);
         currentWorkingDirectory = root;
-        Console.WriteLine("Constructor success");
     }
         
     public void GotToRoot()
@@ -58,23 +54,13 @@ public class OurFileSystem
      */
     public void AddChildDir(string name)
     {
-        Console.WriteLine("addDir started\n");
         if (name != null)
         {
-            // Console.WriteLine("currDir = " + currentWorkingDirectory);
-            // Console.WriteLine("currDir.children = " + currentWorkingDirectory.children);
-            // Console.WriteLine("name = " + name);
-            // Console.WriteLine("newNode = " + newNode);
             currentWorkingDirectory.children.Add(name, new MyNode(currentWorkingDirectory,name)
             {
                 parent = currentWorkingDirectory
             });
         }
-        else
-        {
-            // Console.WriteLine("non null names\n");
-        }
-        Console.WriteLine("addDir done");
     }
         
     /*
@@ -83,16 +69,10 @@ public class OurFileSystem
     */
     public void RemoveChildDir(string name)
     {
-        Console.WriteLine("removeChildDir started");
         if (name != null)
         {
             currentWorkingDirectory.children.Remove(name);
         }
-        else
-        {
-            Console.WriteLine("non null names");
-        }
-        Console.WriteLine("removeChildDir done");
     }
         
     public String getCurrentDir()
@@ -146,44 +126,13 @@ public class OurFileSystem
         {
             this.parent = parent;
             this.name = name;
-            this.children = new Dictionary<string, MyNode>();
+            children = new Dictionary<string, MyNode>();
         }
-        //debug
+
         override 
             public string ToString()
         {
             return this.name + " ";
         }
     }
-        
-    // public static void Main(string [] args)
-    // {
-    //     try
-    //     {
-    //         Console.WriteLine("hello");
-    //
-    //         var dir = new OurDirectoryTree("root");
-    //         dir.AddChildDir("docs");
-    //         dir.AddChildDir("downloads");                
-    //         
-    //         // Console.WriteLine(" ls = \n" + dir.Ls() + " ls test done\n");
-    //
-    //         Console.WriteLine(dir.StepIn("docs") + "\n");
-    //         dir.AddChildDir("images");
-    //         dir.AddChildDir("others");
-    //         
-    //         Console.WriteLine(" ls = \n" + dir.Ls() + " ls test done\n");
-    //
-    //         Console.ReadLine();
-    //         Console.ReadKey();
-    //         Environment.Exit(0);
-    //     }
-    //     catch (Exception e)
-    //     {
-    //         Console.WriteLine("Crash! = " + e );
-    //         Console.ReadKey();
-    //         throw;
-    //     }
-    //     
-    // }
 }

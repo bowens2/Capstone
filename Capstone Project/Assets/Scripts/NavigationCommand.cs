@@ -1,19 +1,42 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
 public class NavigationCommand 
 {
-    private OurFileSystem FileSystem;
+    private readonly FileSystem FileSystem;
 
-    public NavigationCommand(OurFileSystem fileSystem)
+    public NavigationCommand(FileSystem fileSystem)
     {
         FileSystem = fileSystem;
+    }
+    
+    public string ProcessNavCmd(string arg, string commandName, string invalidArgsMessage)
+    {
+        try
+        {
+            switch (commandName)
+            {
+                case "ls":
+                    return Ls();
+                case "cd":
+                    return Cd(arg) ? "" : invalidArgsMessage;
+                case "pwd":
+                    return Pwd();
+            }
+        }
+        catch (ArgumentOutOfRangeException e)
+        {
+            Debug.Log(e);
+        }
+
+        return invalidArgsMessage;
     }
     /*
     * Cd into a dir
     */
-    public bool Cd(string dir)
+    private bool Cd(string dir)
     {
         if (dir.Equals(".."))
         {
@@ -27,7 +50,7 @@ public class NavigationCommand
 
     }
 
-    public string Pwd()
+    private string Pwd()
     {
         var currentDir = FileSystem.getCurrentDir();
         var pwd = currentDir;
@@ -43,11 +66,11 @@ public class NavigationCommand
         return pwd;
     }
     
-    public string Ls()
+    private string Ls()
     {
         Debug.Log("ls start");
             
-        string ls = "";
+        var ls = "";
 
         if (FileSystem.HasChildren())
         {
@@ -63,7 +86,7 @@ public class NavigationCommand
         return ls;
     }
 
-    public bool isNavCmd(string cmd)
+    public bool IsNavCmd(string cmd)
     {
         string[] navCmd = { "ls", "cd", "pwd" };
         return navCmd.Contains(cmd);

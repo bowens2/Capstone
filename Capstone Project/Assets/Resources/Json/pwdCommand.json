@@ -1,6 +1,6 @@
 ﻿{
   "CommandName": "pwd",
-  "InvalidArgsMessage": "-cmd: invalid input\nusage: pwd",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: pwd",
   "IOPairs":
   [
     {
