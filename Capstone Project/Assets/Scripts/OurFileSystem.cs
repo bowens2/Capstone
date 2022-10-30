@@ -36,12 +36,14 @@ public class OurFileSystem
         Console.WriteLine("addDir started\n");
         if (name != null)
         {
-            var newNode = new MyNode(currentWorkingDirectory, name);
             // Console.WriteLine("currDir = " + currentWorkingDirectory);
             // Console.WriteLine("currDir.children = " + currentWorkingDirectory.children);
             // Console.WriteLine("name = " + name);
             // Console.WriteLine("newNode = " + newNode);
-            currentWorkingDirectory.children.Add(name, new MyNode(currentWorkingDirectory,name));
+            currentWorkingDirectory.children.Add(name, new MyNode(currentWorkingDirectory,name)
+            {
+                parent = currentWorkingDirectory
+            });
         }
         else
         {
@@ -99,7 +101,10 @@ public class OurFileSystem
 
     public void StepBack()
     {
-        currentWorkingDirectory = currentWorkingDirectory.parent;
+        if (currentWorkingDirectory.parent != null)
+        {
+            currentWorkingDirectory = currentWorkingDirectory.parent;
+        }
     }
     public ICollection<string> getSubdirectories()
     {
@@ -107,7 +112,7 @@ public class OurFileSystem
     }
     public class MyNode
     {
-        public string name;
+        public readonly string name;
         public MyNode parent;
 
         public IDictionary<string, MyNode> children;
@@ -120,7 +125,7 @@ public class OurFileSystem
         }
         //debug
         override 
-            public String ToString()
+            public string ToString()
         {
             return this.name + " ";
         }

@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class NavigationCommand 
@@ -12,43 +13,28 @@ public class NavigationCommand
     /*
     * Cd into a dir
     */
-    public string Cd(string dir)
+    public bool Cd(string dir)
     {
         if (dir.Equals(".."))
         {
             FileSystem.StepBack();
-        }
-            
-        if (FileSystem.isChildDir(dir))
-        {
-            Debug.Log("Cd into "+dir+" started");
-            // Debug.Log("child valid");
-            FileSystem.StepInside(dir);
-            // Debug.Log("Cd current dir changed to parent");
-            var pwd = "pwd = ";
-            // Debug.Log("child.dir = " + currentWorkingDirectory.children);
-            // Debug.Log("child.dir.length = " + currentWorkingDirectory.children.Count);
-            // Debug.Log("writing pwd");
-            // Debug.Log("if (currentWorkingDirectory.children.Count > 0) = " );
-            // Debug.Log(truth.ToString());
-                
-            if (FileSystem.HasChildren())
-            {
-                foreach (var child in FileSystem.getSubdirectories())
-                {
-                    Debug.Log("child pwd = " + child);
-                    if (child != null)
-                    {
-                        pwd += child + " >";
-                    }
-                }
-            }
-
-            Debug.Log("exit");
-            return pwd;
+            return true;
         }
 
-        return "the same list of dir";
+        if (!FileSystem.isChildDir(dir)) return false;
+        // Debug.Log("Cd into "+dir+" started");
+        // // Debug.Log("child valid");
+        FileSystem.StepInside(dir);
+        // Debug.Log("Cd current dir changed to parent");
+        // var pwd = "pwd = ";
+        // Debug.Log("child.dir = " + currentWorkingDirectory.children);
+        // Debug.Log("child.dir.length = " + currentWorkingDirectory.children.Count);
+        // Debug.Log("writing pwd");
+        // Debug.Log("if (currentWorkingDirectory.children.Count > 0) = " );
+        // Debug.Log(truth.ToString());
+        // Debug.Log("exit");
+        return true;
+
     }
 
     public string Pwd()

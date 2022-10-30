@@ -8,26 +8,23 @@ public class TerminalCommand
     public InputOutputPair[] IOPairs;
     public string CommandName;
     public string InvalidArgsMessage;
-
+    public OurFileSystem  FILE_SYSTEM = prepareTestFileSystem();
     public static TerminalCommand GetFromJson(string jsonString) {
         return JsonUtility.FromJson<TerminalCommand>(jsonString);
     }
 
     public string ProcessCommandInput(string input)
     {
-        NavigationCommand navCmd = new NavigationCommand(prepareTestFileSystem());
-        
-        if (!navCmd.isNavCmd(CommandName))
-        {
-            foreach (var pair in IOPairs) {
-                if (pair.ExpectedInput.Equals(input))
-                    return pair.Output;
-            }
+        var navCmd = new NavigationCommand(FILE_SYSTEM);
 
-            return CommandName + ": " + InvalidArgsMessage;
+        if (navCmd.isNavCmd(CommandName)) return ProcessNavCmd(input, navCmd);
+        foreach (var pair in IOPairs) {
+            if (pair.ExpectedInput.Equals(input))
+                return pair.Output;
         }
-        
-        return ProcessNavCmd(input, navCmd);
+
+        return CommandName + ": " + InvalidArgsMessage;
+
     }
 
     private string ProcessNavCmd(string arg, NavigationCommand navCmd)
@@ -43,7 +40,7 @@ public class TerminalCommand
             //cd
             if (CommandName.Equals("cd"))
             {
-                return navCmd.Cd(arg);
+                return navCmd.Cd(arg) ? "" : InvalidArgsMessage;
             }
         }
         catch (ArgumentOutOfRangeException e)
@@ -53,7 +50,7 @@ public class TerminalCommand
         return InvalidArgsMessage;
     }
 
-    private OurFileSystem prepareTestFileSystem()
+    private static OurFileSystem prepareTestFileSystem()
     {
         var fileSys = new OurFileSystem("root");
         fileSys.AddChildDir("docs");
@@ -63,9 +60,7 @@ public class TerminalCommand
 
         fileSys.StepInside("docs");
         fileSys.AddChildDir("local");
-        fileSys.AddChildDir("drive");
         fileSys.AddChildDir("images");
-        fileSys.AddChildDir("others");
 
         fileSys.GotToRoot();
         

@@ -1,6 +1,6 @@
 ﻿{
   "CommandName": "cd",
-  "InvalidArgsMessage": "invalid input",
+  "InvalidArgsMessage": "-cmd: invalid input\nusage: cd [dir]",
   "IOPairs":
   [
     {
