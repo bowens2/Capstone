@@ -53,7 +53,13 @@ public class ShowNewLine : MonoBehaviour
         foreach (var command in terminalCommands) {
             if (commandWord.Equals(command.CommandName))
             {
-                showLine(command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1)));
+                string output = command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1));
+                string [] lines = output.Split("\n");
+                foreach (var line in lines)
+                {
+                    showLine(line);
+                }
+                showNewInputLine();
                 return;
             }
         }
@@ -66,7 +72,7 @@ public class ShowNewLine : MonoBehaviour
         float newY = lastLineY - 50;
         Instantiate(emptyFullWidthTextBox, new Vector3(emptyFullWidthTextBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
         lastLineY = newY;
-        showNewInputLine();
+        // showNewInputLine();
     }
 
     public void showNewInputLine() 
