@@ -8,7 +8,7 @@ public class TerminalCommand
     public InputOutputPair[] IOPairs;
     public string CommandName;
     public string InvalidArgsMessage;
-    public OurFileSystem  FILE_SYSTEM = prepareTestFileSystem();
+    public static OurFileSystem  FILE_SYSTEM = prepareTestFileSystem();
     public static TerminalCommand GetFromJson(string jsonString) {
         return JsonUtility.FromJson<TerminalCommand>(jsonString);
     }

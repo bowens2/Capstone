@@ -22,17 +22,7 @@ public class NavigationCommand
         }
 
         if (!FileSystem.isChildDir(dir)) return false;
-        // Debug.Log("Cd into "+dir+" started");
-        // // Debug.Log("child valid");
         FileSystem.StepInside(dir);
-        // Debug.Log("Cd current dir changed to parent");
-        // var pwd = "pwd = ";
-        // Debug.Log("child.dir = " + currentWorkingDirectory.children);
-        // Debug.Log("child.dir.length = " + currentWorkingDirectory.children.Count);
-        // Debug.Log("writing pwd");
-        // Debug.Log("if (currentWorkingDirectory.children.Count > 0) = " );
-        // Debug.Log(truth.ToString());
-        // Debug.Log("exit");
         return true;
 
     }
@@ -61,9 +51,6 @@ public class NavigationCommand
 
         if (FileSystem.HasChildren())
         {
-            // Debug.Log("currDir = " + FileSystem.getCurrentDir());
-            // Debug.Log("children array = " + FileSystem.getSubdirectories());
-
             foreach (var childName in FileSystem.getSubdirectories())
             {
                 if (childName != null)
