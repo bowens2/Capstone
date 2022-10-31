@@ -1,6 +1,6 @@
 ﻿{
   "CommandName": "bruteforcedir",
-  "InvalidArgsMessage": "-cmd: invalid input - usage: bruteforcedir [domain]",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: bruteforcedir [url]",
   "IOPairs":
   [
     {

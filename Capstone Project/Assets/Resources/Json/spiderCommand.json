@@ -1,0 +1,11 @@
+﻿{
+  "CommandName": "spider",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: spider [url]",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "http://localhost",
+      "Output":"http://localhost\n-- http://localhost/login\n-- http://localhost/dashboard\n---- http://localhost/security\n---- http://localhost/doors\n-- http://localhost/exit"
+    }
+  ]
+}
