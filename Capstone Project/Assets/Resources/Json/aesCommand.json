@@ -1,0 +1,16 @@
+﻿{
+  "CommandName": "aes256",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: aes256 [text] [-e | -d] -key [key]",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "DZuV8bHXTi83ICc7BWaCAurvHjQB3LoD317OJUXg/0Q= -d -key AES256RequiresA32BitsLongPassKey",
+      "Output":"my secret message"
+    },
+
+    {
+      "ExpectedInput": "my secret message -e -key AES256RequiresA32BitsLongPassKey",
+      "Output":"DZuV8bHXTi83ICc7BWaCAurvHjQB3LoD317OJUXg/0Q="
+    }
+  ]
+}
