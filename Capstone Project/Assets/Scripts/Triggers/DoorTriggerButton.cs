@@ -24,7 +24,6 @@ public class DoorTriggerButton : MonoBehaviour
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F) && !doorOpen) {
             door.OpenDoor();
-            
             Debug.Log("opening door");
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F) && doorOpen) {
