@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 762510e88fa5fe14391ed25f4616195e
+guid: 0b665a7cbe5e29e4699c262d1b431bba
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 17_Visibile_Upstairs_System_32x32_0
+      name: DOWNSTAIRS
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
+        x: 68
+        y: 164
         width: 64
         height: 128
       alignment: 2
@@ -119,8 +119,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803aee06897803249b60cd43f04deae0
-      internalID: 1438297722
+      spriteID: d408e11e6dc4d3147894030b6e965100
+      internalID: -2119252798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPSTAIRS
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 164
+        width: 64
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885859b53bd6d294e87f1ef289668de1
+      internalID: -1817677243
       vertices: []
       indices: 
       edges: []
@@ -136,7 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      17_Visibile_Upstairs_System_32x32_0: 1438297722
+      DOWNSTAIRS: -2119252798
+      UPSTAIRS: -1817677243
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
