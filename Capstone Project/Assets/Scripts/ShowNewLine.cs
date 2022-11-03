@@ -50,23 +50,34 @@ public class ShowNewLine : MonoBehaviour
         var inputText = previousLineInput.text;
         var commandWord = inputText.Split(' ')[0];
         var commandIndex = inputText.IndexOf(" ");
-        foreach (var command in terminalCommands) {
-            if (commandWord.Equals(command.CommandName))
-            {
-                showLine(command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1)));
-                return;
-            }
+        
+        foreach (var result in from command in terminalCommands where commandWord.Equals(command.CommandName) 
+                 select command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1)).Split("\n"))
+        {
+            ShowLines(result);
+            return;
         }
-
-        showLine("'" + inputText + "' is not a valid command");
+        //miss-clicks and clicks outside the text line should be ignored
+        if (!commandWord.Equals(""))
+        {
+            showLine("'" + inputText + "' is not a valid command");
+            showNewInputLine();
+        }
     }
 
+    public void ShowLines(string [] lines)
+    {
+        foreach (var line in lines)
+        {
+            showLine(line);
+        }
+        showNewInputLine();
+    }
     public void showLine(string line) {
         emptyFullWidthTextBox.text = line;
         float newY = lastLineY - 50;
         Instantiate(emptyFullWidthTextBox, new Vector3(emptyFullWidthTextBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
         lastLineY = newY;
-        showNewInputLine();
     }
 
     public void showNewInputLine() 

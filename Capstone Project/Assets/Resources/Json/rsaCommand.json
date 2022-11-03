@@ -1,0 +1,16 @@
+﻿{
+  "CommandName": "rsa",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: rsa [-decrypt | -encrypt] -inkey [key] -in [file name]",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "-decrypt -inkey bob_private.pem -in top_secret.enc",
+      "Output":"top_secret.txt"
+    },
+
+    {
+      "ExpectedInput": "-encrypt -inkey alice_public.pem -in reply_secret.txt",
+      "Output":"reply_secret.enc"
+    }
+  ]
+}

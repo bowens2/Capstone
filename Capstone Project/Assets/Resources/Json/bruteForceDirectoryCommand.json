@@ -1,0 +1,17 @@
+﻿{
+  "CommandName": "bruteforcedir",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: bruteforcedir [url]",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "http://localhost",
+      "Output":"http://localhost//admin - 0B : HTTP 301 : Unknown\nhttp://localhost//adm - 69KB : HTTP 404 : Not Found\nhttp://localhost//etc - 40KB : HTTP 403 : Unknown\nhttp://localhost//secret - 269KB : HTTP 200 : Found"
+    },
+
+    {
+      "ExpectedInput": "http://localhost/dashboard",
+      "Output":"http://localhost/dashboad - 0B : HTTP 301 : Unknown\nhttp://localhost/dashboad//secret - 269KB : HTTP 200 : Found"
+
+    }
+  ]
+}

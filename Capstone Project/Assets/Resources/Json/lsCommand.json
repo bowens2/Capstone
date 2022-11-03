@@ -1,0 +1,11 @@
+﻿{
+  "CommandName": "ls",
+  "InvalidArgsMessage": "-cmd: invalid input - usage: ls",
+  "IOPairs":
+  [
+    {
+      "ExpectedInput": "ls",
+      "Output":"placeholder"
+    }
+  ]
+}
