@@ -21,7 +21,7 @@ public class CaeserWheel : MonoBehaviour
     public Canvas parentCanvas;
    
 
-    public Tuple<string, string, int>[] CypherTexts = {new("test", "sdqs", 2), new("testii", "alzapp", 7)};
+    public Tuple<string, string, int>[] CypherTexts = {new("decoded1", "encoded1", 2), new("decoded2", "encoded2", 7)};
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +70,14 @@ public class CaeserWheel : MonoBehaviour
         {
             if (cypherText.Item3 == totalShift && !decodedTexts.Contains(cypherText.Item1))
             {
+                if (cypherText.Item1.equals("decoded1")) 
+                {
+                    int i = 0;    //DECODE SCENARIO 1
+                }
+                else if (cypherText.Item1.equals("decoded2"))
+                {
+                    int i = 0;    //DECODE SCENARIO 2
+                }
                 ShowDecodedText(cypherText.Item1);
                 decodedTexts.Add(cypherText.Item1);
             }
