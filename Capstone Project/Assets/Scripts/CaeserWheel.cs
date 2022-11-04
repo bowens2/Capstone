@@ -70,11 +70,11 @@ public class CaeserWheel : MonoBehaviour
         {
             if (cypherText.Item3 == totalShift && !decodedTexts.Contains(cypherText.Item1))
             {
-                if (cypherText.Item1.equals("decoded1")) 
+                if (cypherText.Item1.Equals("decoded1")) 
                 {
                     int i = 0;    //DECODE SCENARIO 1
                 }
-                else if (cypherText.Item1.equals("decoded2"))
+                else if (cypherText.Item1.Equals("decoded2"))
                 {
                     int i = 0;    //DECODE SCENARIO 2
                 }
