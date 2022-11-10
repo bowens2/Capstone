@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using System.Threading;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Linq;
 
@@ -18,7 +20,8 @@ public class ShowNewLine : MonoBehaviour
     public TMP_InputField previousLineInput;
     public Canvas parentCanvas;
     public List<TerminalCommand> terminalCommands = new();
-
+    public bool endOfScreen = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +33,9 @@ public class ShowNewLine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(endOfScreen) {
+            reset();
+        }
     }
     
     public void loadCommands() 
@@ -51,6 +57,10 @@ public class ShowNewLine : MonoBehaviour
         var commandWord = inputText.Split(' ')[0];
         var commandIndex = inputText.IndexOf(" ");
         
+        if(commandWord.Equals("reset") || lastLineY - 200 <= emptyFullWidthTextBox.transform.position.y) {
+            reset();
+            return;
+        }
         foreach (var result in from command in terminalCommands where commandWord.Equals(command.CommandName) 
                  select command.ProcessCommandInput(inputText.Remove(0, commandIndex + 1)).Split("\n"))
         {
@@ -71,6 +81,12 @@ public class ShowNewLine : MonoBehaviour
         {
             showLine(line);
         }
+        
+        if (lastLineY - 250 <= emptyFullWidthTextBox.transform.position.y) {
+            Thread.Sleep(3000);
+            endOfScreen = true;
+            return;
+        }
         showNewInputLine();
     }
     public void showLine(string line) {
@@ -83,12 +99,17 @@ public class ShowNewLine : MonoBehaviour
     public void showNewInputLine() 
     {
         float newY = lastLineY - 50;
+
         userInfoLine = Instantiate(userInfoLine, new Vector3(userInfoLine.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
         TMP_InputField newInput = Instantiate(previousLineInput, new Vector3(previousLineInput.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
         newInput.text = "";
         newInput.ActivateInputField();
         previousLineInput = newInput;
         lastLineY = newY;
+    }
+
+    public void reset() {
+        SceneManager.LoadScene("TerminalScene");
     }
     
 }
