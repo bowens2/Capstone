@@ -5,7 +5,7 @@
   [
     {
       "ExpectedInput": "BEGIN ENCRYPT AvjzjAsjJJZJIEPLlj908 END -d -key sportsGuy11",
-      "Output":"Jreupj bvp zj JyzgDrjkvii - 17 ;)"
+      "Output":"Sandys key is ShipMasterr"
     },
     {
       "ExpectedInput": "BEGIN ENCRYPT jiopfnvNJJJOjkj08888nJ END -d -key ShipMasterr",
