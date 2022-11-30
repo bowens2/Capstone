@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TerminalScene.unity
     guid: b7a61069538eef04aa624e42e2b3f198
+  - enabled: 1
+    path: Assets/Scenes/EmailScene.unity
+    guid: 61477cb3e5e3079438a8a93154bcefeb
   m_configObjects: {}

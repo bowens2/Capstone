@@ -21,7 +21,7 @@ public class CaeserWheel : MonoBehaviour
     public Canvas parentCanvas;
    
 
-    public Tuple<string, string, int>[] CypherTexts = {new("decoded1", "encoded1", 2), new("decoded2", "encoded2", 7)};
+    public Tuple<string, string, int>[] CypherTexts = {new("Sandys key is ShipMasterr", "Jreupj bvp zj JyzgDrjkvii", 17)};
 
     // Start is called before the first frame update
     void Start()
