@@ -46,14 +46,14 @@ public class CaeserWheel : MonoBehaviour
     {
         foreach (var cypherText in CypherTexts)
         {
-            if(cypherText.Item2.Equals("mtngrm") && StateController.showingEncodedText1 == false && StateController.receptionNoteFound == true) {
-                StateController.showingEncodedText1 = true;
+            if(cypherText.Item2.Equals("mtngrm") && StateController.showingCiphertext1 == false && StateController.receptionNoteFound == true) {
+                StateController.showingCiphertext1 = true;
                 //ShowEncodedText(cypherText.Item2);
                 encodedText1.gameObject.SetActive(true);
             }
             
-            else if(cypherText.Item2.Equals("officblck") && StateController.showingEncodedText2 == false && StateController.meetingRoomNoteFound == true) {
-                StateController.showingEncodedText2 = true;
+            else if(cypherText.Item2.Equals("officblck") && StateController.showingCiphertext2 == false && StateController.meetingRoomNoteFound == true) {
+                StateController.showingCiphertext2 = true;
                 //ShowEncodedText(cypherText.Item2);
                 encodedText2.gameObject.SetActive(true);
             }
@@ -102,7 +102,7 @@ public class CaeserWheel : MonoBehaviour
                 {
                     StateController.officeBlockDoorOpen = true;
                 }
-                //ShowDecodedText(cypherText.Item1);
+                ShowDecodedText(cypherText.Item1);
                 decodedTexts.Add(cypherText.Item1);
             }
         }
