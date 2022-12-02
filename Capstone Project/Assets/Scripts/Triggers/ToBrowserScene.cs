@@ -18,7 +18,11 @@ public class ToBrowserScene : MonoBehaviour
             closeEnough = true;
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F)) {
-            SceneManager.LoadSceneAsync("Scenes/BrowserDemo", LoadSceneMode.Single);
+            ToBrowser();
         }
+    }
+
+    public void ToBrowser() {
+        SceneManager.LoadSceneAsync("Scenes/BrowserDemo", LoadSceneMode.Single);
     }
 }
