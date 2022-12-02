@@ -11,6 +11,7 @@ public class StateController : MonoBehaviour
     public static bool officeBlockDoorOpen;
     public static bool DerekDoorOpen;
     public static bool SandyDoorOpen;
+    public static bool securityDoorOpen;
 
     // Player Position Maintaining (WIP)
     //public Rigidbody2D rb;
@@ -30,6 +31,7 @@ public class StateController : MonoBehaviour
             officeBlockDoorOpen = false;
             DerekDoorOpen = false;
             SandyDoorOpen = false;
+            securityDoorOpen = false;
 
             Floor1PlayerPosition.x = (float)7.0;
             Floor1PlayerPosition.y = (float)-15.75;
