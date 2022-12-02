@@ -18,7 +18,9 @@ public class ToCaeserScene : MonoBehaviour
             closeEnough = true;
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F)) {
-            SceneManager.LoadSceneAsync("Scenes/CaesarScene", LoadSceneMode.Single);
+            StateController.Floor1PlayerPosition.x = (float)-0.4049325;
+            StateController.Floor1PlayerPosition.x = (float)-10.49879;
+            SceneManager.LoadSceneAsync("Scenes/CaeserScene", LoadSceneMode.Single);
         }
     }
 }

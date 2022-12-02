@@ -14,6 +14,7 @@ public class ShowNewLine : MonoBehaviour
     
     private float lastLineY;
     private float lineStartX => userInfoLine.transform.position.x;
+    private string lastCmdOut;
 
     public TMP_Text emptyFullWidthTextBox;
     public TMP_Text userInfoLine;
@@ -90,6 +91,7 @@ public class ShowNewLine : MonoBehaviour
         showNewInputLine();
     }
     public void showLine(string line) {
+        lastCmdOut = line;
         emptyFullWidthTextBox.text = line;
         float newY = lastLineY - 50;
         Instantiate(emptyFullWidthTextBox, new Vector3(emptyFullWidthTextBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
@@ -106,6 +108,18 @@ public class ShowNewLine : MonoBehaviour
         newInput.ActivateInputField();
         previousLineInput = newInput;
         lastLineY = newY;
+    }
+
+    public void CopyLastCommandOut() {
+        GUIUtility.systemCopyBuffer = lastCmdOut;
+    }
+
+    public void GoToEmail() {
+        SceneManager.LoadScene("EmailScene");
+    }
+
+    public void GoToCaesar() {
+        SceneManager.LoadScene("CaeserScene");
     }
 
     public void reset() {

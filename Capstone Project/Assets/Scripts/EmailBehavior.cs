@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class EmailBehavior : MonoBehaviour
 {
@@ -26,21 +27,30 @@ public class EmailBehavior : MonoBehaviour
     {
         
     }
+    public void CopyFocusedEmail() 
+    {
+        GUIUtility.systemCopyBuffer = emailBodyBox.text;
+    }
+
+    public void GoToTerminal()
+    {
+        SceneManager.LoadScene("TerminalScene");
+    }
 
     public void FocusEmailOne() 
     {
-        emailBodyBox.text = "email 1 body";
-        emailFromBox.text = "from1@from.com";
-        emailSubjectBox.text = "subject 1";
-        emailReceivedBox.text = "Received 01:MM YYYY/MM/DD";
+        emailBodyBox.text = "BEGIN ENCRYPT AvjzjAsjJJZJIEPLlj908 END";
+        emailFromBox.text = "Derek <dererk@hugetech.com>";
+        emailSubjectBox.text = "Caesar";
+        emailReceivedBox.text = "Received 01:03 2077/01/14";
         currentEmail = 1;
     }
     public void FocusEmailTwo()
     {
-        emailBodyBox.text = "email 2 body";
-        emailFromBox.text = "from2@from.com";
-        emailSubjectBox.text = "subject 2";
-        emailReceivedBox.text = "Received 02:MM YYYY/MM/DD"; 
+        emailBodyBox.text = "BEGIN ENCRYPT jiopfnvNJJJOjkj08888nJ END";
+        emailFromBox.text = "Sandy <sandy@hugetech.com>";
+        emailSubjectBox.text = "Door";
+        emailReceivedBox.text = "Received 02:23 2077/01/10"; 
         currentEmail = 2;
     }
 

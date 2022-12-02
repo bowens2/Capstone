@@ -15,42 +15,66 @@ public class CaeserWheel : MonoBehaviour
 
     public Image OuterWheel;
     public TMP_InputField ShiftInput;
-    public TMP_Text encodedSubtitle;
-    public TMP_Text decodedSubtitle;
-    public TMP_Text emptyPartialWidthBox;
+    //public TMP_Text encodedSubtitle;
+    //public TMP_Text decodedSubtitle;
+    public TMP_Text encodedText1;
+    public TMP_Text encodedText2;
+    public TMP_Text decodedText1;
+    public TMP_Text decodedText2;
+    //public TMP_Text emptyPartialWidthBox2;
     public Canvas parentCanvas;
    
+    // tuple format is: (decodedText, EncodedText, ShiftNumber, TextDisplayedInCaesarScene)
+    public Tuple<string, string, int, bool>[] CypherTexts = {new("mtngrm","ovpito",2, false), new("officblck","qhhkdnem",2, false)};
 
-    public Tuple<string, string, int>[] CypherTexts = {new("decoded1", "encoded1", 2), new("decoded2", "encoded2", 7)};
+    //private bool showingCiphertext1 = false;
+    //private bool showingCiphertext2 = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        lastEncodeY = encodedSubtitle.transform.position.y;
-        lastDecodeY = decodedSubtitle.transform.position.y;
+        //lastEncodeY = encodedSubtitle.transform.position.y;
+        lastEncodeY = 338;
+        //lastDecodeY = decodedSubtitle.transform.position.y;
+        lastEncodeY = -5;
 
-        foreach (var cypherText in CypherTexts)
-        {
-            emptyPartialWidthBox.text = cypherText.Item2;
-            float newY = lastEncodeY - 50;
-            Instantiate(emptyPartialWidthBox, new Vector3(emptyPartialWidthBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
-            lastEncodeY = newY;
-        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (var cypherText in CypherTexts)
+        {
+            if(cypherText.Item2.Equals("mtngrm") && StateController.showingEncodedText1 == false && StateController.receptionNoteFound == true) {
+                StateController.showingEncodedText1 = true;
+                //ShowEncodedText(cypherText.Item2);
+                encodedText1.gameObject.SetActive(true);
+            }
+            
+            else if(cypherText.Item2.Equals("officblck") && StateController.showingEncodedText2 == false && StateController.meetingRoomNoteFound == true) {
+                StateController.showingEncodedText2 = true;
+                //ShowEncodedText(cypherText.Item2);
+                encodedText2.gameObject.SetActive(true);
+            }
+        }
     }
 
-    public void ShowDecodedText(string text)
-    {
-        emptyPartialWidthBox.text = text;
-        float newY = lastDecodeY - 50;
-        Instantiate(emptyPartialWidthBox, new Vector3(emptyPartialWidthBox.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
-        lastDecodeY = newY;
-    }
+    //public void ShowEncodedText(string text)
+    //{
+    //    emptyPartialWidthBox1.text = text;
+    //    float newY = lastEncodeY - 50;
+    //    Instantiate(emptyPartialWidthBox1, new Vector3(emptyPartialWidthBox1.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
+    //    lastEncodeY = newY;
+    //}
+
+    //public void ShowDecodedText(string text)
+    //{
+    //    emptyPartialWidthBox2.text = text;
+    //    float newY = lastDecodeY - 50;
+    //    Instantiate(emptyPartialWidthBox2, new Vector3(emptyPartialWidthBox2.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
+    //    lastDecodeY = newY;
+    //}
 
     public void ResetWheel()
     {
@@ -70,15 +94,15 @@ public class CaeserWheel : MonoBehaviour
         {
             if (cypherText.Item3 == totalShift && !decodedTexts.Contains(cypherText.Item1))
             {
-                if (cypherText.Item1.Equals("decoded1")) 
+                if (cypherText.Item1.Equals("mtngrm")) // Meeting Room Door 
                 {
-                    int i = 0;    //DECODE SCENARIO 1
+                    StateController.meetingRoomDoorOpen = true;
                 }
-                else if (cypherText.Item1.Equals("decoded2"))
+                else if (cypherText.Item1.Equals("officblck")) // Office Block Door
                 {
-                    int i = 0;    //DECODE SCENARIO 2
+                    StateController.officeBlockDoorOpen = true;
                 }
-                ShowDecodedText(cypherText.Item1);
+                //ShowDecodedText(cypherText.Item1);
                 decodedTexts.Add(cypherText.Item1);
             }
         }
