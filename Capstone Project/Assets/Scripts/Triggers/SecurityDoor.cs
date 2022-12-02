@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SecurityDoor : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class SecurityDoor : MonoBehaviour
             if(StateController.securityDoorOpen == true) {
                 closeEnough = true;
             } else {
-                
+                SceneManager.LoadSceneAsync("Scenes/SecurityDoorScene");
             }
             
         }

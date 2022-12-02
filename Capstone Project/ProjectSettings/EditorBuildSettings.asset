@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrowserDemo.unity
     guid: 86015a17fcccc594aa62c1f6784d312c
+  - enabled: 1
+    path: Assets/Scenes/ProxyDemo.unity
+    guid: 661d5d706d2cdd8478b290a3a565a47c
+  - enabled: 1
+    path: Assets/Scenes/SecurityDoorScene.unity
+    guid: efebaae2054722e48a61defe1cc1a92d
   m_configObjects: {}
