@@ -135,9 +135,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97089f4f5a52d8948aa7c528b93f0702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://www.cameralobby.com/camera1
-  method: GET
-  statusCode: 200
+  url: 
+  method: 
+  statusCode: 
+  signature: 
+  userAgent: 
+  accept: 
+  referer: 
+  cookie: 
+  response: 
 --- !u!1 &8238395209610644763
 GameObject:
   m_ObjectHideFlags: 0

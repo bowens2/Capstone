@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Page : MonoBehaviour
+public class WebButton : MonoBehaviour
 {
     // Start is called before the first frame update
     public string url;
@@ -14,9 +14,14 @@ public class Page : MonoBehaviour
     public string accept;
     public string referer;
     public string cookie;
+    public string response;
     void Start()
     {
-        GetComponent<Button>().onClick.AddListener(FireClickToHistory);
+        if (CompareTag("Trigger"))
+        {
+            GetComponent<Button>().onClick.AddListener(FireClickToHistory);
+        }
+        
     }
 
     // Update is called once per frame
@@ -25,8 +30,8 @@ public class Page : MonoBehaviour
         
     }
 
-    void FireClickToHistory()
-    {
-        ProxyHistory.AddHistory(url, method, statusCode, signature, userAgent, accept, referer, cookie);
+    private void FireClickToHistory()
+    { 
+        ProxyHistory.AddHistory(url, method, statusCode, signature, userAgent, accept, referer, cookie, response);
     }
 }
