@@ -8,73 +8,52 @@ using UnityEngine.UI;
 public class CaeserWheel : MonoBehaviour
 {
     private float zRotationPerLetter => (float)(360.0 / 26.0);
-    private float lastEncodeY;
-    private float lastDecodeY;
+
     private int totalShift;
-    private List<string> decodedTexts = new();
 
     public Image OuterWheel;
     public TMP_InputField ShiftInput;
-    //public TMP_Text encodedSubtitle;
-    //public TMP_Text decodedSubtitle;
+
     public TMP_Text encodedText1;
     public TMP_Text encodedText2;
+    public TMP_Text encodedText3;
+
     public TMP_Text decodedText1;
     public TMP_Text decodedText2;
-    //public TMP_Text emptyPartialWidthBox2;
+    public TMP_Text decodedText3;
+
     public Canvas parentCanvas;
    
-    // tuple format is: (decodedText, EncodedText, ShiftNumber, TextDisplayedInCaesarScene)
-    public Tuple<string, string, int, bool>[] CypherTexts = {new("mtngrm","ovpito",2, false), new("officblck","qhhkdnem",2, false)};
-
-    //private bool showingCiphertext1 = false;
-    //private bool showingCiphertext2 = false;
+    // tuple format is: (decodedText, EncodedText, ShiftNumber)
+    public Tuple<string, string, int>[] CypherTexts = {new("mtngrm", "ovpito", 2), new("officblck", "qhhkdnem", 2), new("GoLFGeNIUs", "MuRLMkTOAy", 6)};
 
     // Start is called before the first frame update
     void Start()
     {
-        //lastEncodeY = encodedSubtitle.transform.position.y;
-        lastEncodeY = 338;
-        //lastDecodeY = decodedSubtitle.transform.position.y;
-        lastEncodeY = -5;
+        encodedText1.gameObject.SetActive(false);
+        encodedText2.gameObject.SetActive(false);
+        encodedText3.gameObject.SetActive(false);
 
-        
+        decodedText1.gameObject.SetActive(false);
+        decodedText2.gameObject.SetActive(false);
+        decodedText3.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        foreach (var cypherText in CypherTexts)
-        {
-            if(cypherText.Item2.Equals("mtngrm") && StateController.showingCiphertext1 == false && StateController.receptionNoteFound == true) {
-                StateController.showingCiphertext1 = true;
-                //ShowEncodedText(cypherText.Item2);
-                encodedText1.gameObject.SetActive(true);
-            }
-            
-            else if(cypherText.Item2.Equals("officblck") && StateController.showingCiphertext2 == false && StateController.meetingRoomNoteFound == true) {
-                StateController.showingCiphertext2 = true;
-                //ShowEncodedText(cypherText.Item2);
-                encodedText2.gameObject.SetActive(true);
-            }
+
+        if(StateController.receptionNoteFound == true) {
+            encodedText1.gameObject.SetActive(true);
         }
+
+        if(StateController.meetingRoomNoteFound == true) {
+            encodedText2.gameObject.SetActive(true);
+            encodedText3.gameObject.SetActive(true);
+        }
+
+    
     }
-
-    //public void ShowEncodedText(string text)
-    //{
-    //    emptyPartialWidthBox1.text = text;
-    //    float newY = lastEncodeY - 50;
-    //    Instantiate(emptyPartialWidthBox1, new Vector3(emptyPartialWidthBox1.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
-    //    lastEncodeY = newY;
-    //}
-
-    //public void ShowDecodedText(string text)
-    //{
-    //    emptyPartialWidthBox2.text = text;
-    //    float newY = lastDecodeY - 50;
-    //    Instantiate(emptyPartialWidthBox2, new Vector3(emptyPartialWidthBox2.transform.position.x, newY, 0), Quaternion.identity, parentCanvas.transform);
-    //    lastDecodeY = newY;
-    //}
 
     public void ResetWheel()
     {
@@ -92,18 +71,26 @@ public class CaeserWheel : MonoBehaviour
         OuterWheel.transform.Rotate(new Vector3(0, 0, shiftNum * zRotationPerLetter));
         foreach (var cypherText in CypherTexts)
         {
-            if (cypherText.Item3 == totalShift && !decodedTexts.Contains(cypherText.Item1))
+            if (cypherText.Item3 == totalShift)
             {
-                if (cypherText.Item1.Equals("mtngrm")) // Meeting Room Door 
+                if (cypherText.Item1.Equals("mtngrm") && StateController.receptionNoteFound == true) // Meeting Room Door 
                 {
                     StateController.meetingRoomDoorOpen = true;
+                    decodedText1.gameObject.SetActive(true);
+                    Debug.Log("decoded1 set to active");
                 }
-                else if (cypherText.Item1.Equals("officblck")) // Office Block Door
+                else if (cypherText.Item1.Equals("officblck") && StateController.meetingRoomNoteFound == true) // Office Block Door
                 {
                     StateController.officeBlockDoorOpen = true;
+                    decodedText2.gameObject.SetActive(true);
+                    Debug.Log("decoded2 set to active");
                 }
-                ShowDecodedText(cypherText.Item1);
-                decodedTexts.Add(cypherText.Item1);
+                else if (cypherText.Item1.Equals("GoLFGeNIUs") && StateController.meetingRoomNoteFound == true) // Derek Office Door
+                {
+                    StateController.DerekDoorOpen = true;
+                    decodedText3.gameObject.SetActive(true);
+                    Debug.Log("decoded3 set to active");
+                }
             }
         }
     }

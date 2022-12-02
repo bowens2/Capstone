@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Note1Interact : MonoBehaviour
+public class Note3Interact : MonoBehaviour
 {
 
     public GameObject NoteText;
@@ -26,10 +26,9 @@ public class Note1Interact : MonoBehaviour
             closeEnough = true;
         }
         if(closeEnough && Input.GetKeyDown(KeyCode.F) && !textActive) {
-            StateController.receptionNoteFound = true;
+            StateController.emailSceneUnlocked = true;
             NoteText.gameObject.SetActive(true);
             textActive = true;
-            Debug.Log("Reception Note Found");
         }
         else if(closeEnough && Input.GetKeyDown(KeyCode.F) && textActive) {
             NoteText.gameObject.SetActive(false);
